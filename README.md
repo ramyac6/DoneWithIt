@@ -61,24 +61,20 @@ This code is my work, but done by following a tutorial at https://www.youtube.co
   <li>View</li>
   <ul>
     <li>Most basic component in React Native</li>
-	<li>Functions like a div in HTML</li>
-	<ul>
-      <li>This will start asking you questions</li>
-</ul>
+    <li>Functions like a div in HTML</li>
   </ul>
   <li>Styling</li>
   <ul>
-  <li> Make sure you don't place elements where they could be covered by the iPhone notch</li>
+    <li> Make sure you don't place elements where they could be covered by the iPhone notch</li>
   <ul>
-  	<li>Import and use <code>SafeAreaView</code> in place of <code>View</code></li>
-	<ul>
-  	<li>Adds a bit of padding at the top so content isn't covered up by the notch</li>
+    <li>Import and use <code>SafeAreaView</code> in place of <code>View</code></li>
+    <ul>
+      <li>Adds a bit of padding at the top so content isn't covered up by the notch</li>
+    </ul>
   </ul>
+      <li>flex: when set to 1, means that the view is flexible and will grow both horizontally and vertically to fit the free space</li>
+      <li>backgroundColor: the backgroung color, can be set using RGB values like in web apps or named colors</li>
   </ul>
-      	<li>flex: when set to 1, means that the view is flexible and will grow both horizontally and vertically to fit the free space</li>
-		<li>backgroundColor: the backgroung color, can be set using RGB values like in web apps or named colors</li>
-		</ul>
-
 </ul>
 
 ### Miscellaneous Tips
