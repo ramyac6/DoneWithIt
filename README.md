@@ -30,3 +30,28 @@ This code is my work, but done by following a tutorial at https://www.youtube.co
 	<li>Disable Remote JS Debugging when done</li>
   </ul>
 </ul>
+
+### Publishing
+<ul>
+  <li>Publish from Metro Bundler</li>
+  <ul>
+    <li>Click <code>Publish or Republish project...</code></li>
+	<ul>
+      <li>This will start asking you questions</li>
+	  	<ul>
+      		<li>Name: name found in <code>app.json</code></li>
+			<li>Slug: slug found in <code>app.json</code>, eventually becomes part of the expo URL</li>
+			<li>GitHub Source URL: githubUrl found in <code>app.json</code>optional, but self-explanatory</li>
+			<li>Description: description found in <code>app.json</code>, optional but self-explanatory</li>
+    	</ul>
+		<ul>
+    		<li>This may redirect you to the command line if you are not signed in to an Expo account.</li>
+  		</ul>
+    </ul>
+    <li>Publishes your app to <code>https://expo.io/@{username}/{slug}</code></li>
+  </ul>
+  <li>Publish from command line</li>
+  <ul>
+    <li>Does the same as above, but all in the command line</li>
+  </ul>
+</ul>
