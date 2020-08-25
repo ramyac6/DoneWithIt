@@ -64,17 +64,7 @@ This code is my work, but done by following a tutorial at https://www.youtube.co
 	<li>Functions like a div in HTML</li>
 	<ul>
       <li>This will start asking you questions</li>
-	  	<ul>
-      		<li>Name: name found in <code>app.json</code></li>
-			<li>Slug: slug found in <code>app.json</code>, eventually becomes part of the expo URL</li>
-			<li>GitHub Source URL: githubUrl found in <code>app.json</code>optional, but self-explanatory</li>
-			<li>Description: description found in <code>app.json</code>, optional but self-explanatory</li>
-    	</ul>
-		<ul>
-    		<li>This may redirect you to the command line if you are not signed in to an Expo account.</li>
-  		</ul>
-    </ul>
-    <li>Publishes your app to <code>https://expo.io/@{username}/{slug}</code></li>
+</ul>
   </ul>
   <li>Styling</li>
   <ul>
@@ -87,8 +77,6 @@ This code is my work, but done by following a tutorial at https://www.youtube.co
   </ul>
       	<li>flex: when set to 1, means that the view is flexible and will grow both horizontally and vertically to fit the free space</li>
 		<li>backgroundColor: the backgroung color, can be set using RGB values like in web apps or named colors</li>
-		<li>GitHub Source URL: githubUrl found in <code>app.json</code>optional, but self-explanatory</li>
-		<li>Description: description found in <code>app.json</code>, optional but self-explanatory</li>
 		</ul>
 
 </ul>
