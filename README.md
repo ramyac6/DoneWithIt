@@ -224,7 +224,8 @@ This code is my work, but done by following a tutorial at https://www.youtube.co
       <li><code>flexBasis</code>: sets size of an item along the primary axis</li>
       <li><code>flexGrow</code>: same as setting <code>flex</code></li>
       <li><code>flexShrink</code>: the opposite of <code>flexGrow</code>, tells code this property can be shrunk if necessary, also same as setting <code>flex</code> to a negative value</li>
-      <ul>
+      <li><code>position</code>: position is by default relative, so it doesn't affect any other component, can be set to absolute, and it moves relative to the parent component</li>
+      </ul>
   </ul>
 </ul>
 
