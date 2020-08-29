@@ -158,16 +158,38 @@ This code is my work, but done by following a tutorial at https://www.youtube.co
     <ul>
       <li>Can get us the height of the status bar as it varies from Android to Android</li>
     </ul>
-    <li><code>Alert.prompt</code></li>
-    <ul>
-      <li>Diplays a question which we get an answer from, only works on iOS</li>
-    </ul>
   </ul>
   <li>Styling</li>
   <ul>
     <li>Not based on CSS</li>
     <li>Using <code>StyleSheet.create</code> allows for validation checking for spelling mistakes and things</li>
     <li>Can pass multiple style components, right-most one will override the left-most ones</li>
+    <li>Dimensions</li>
+    <ul>
+      <li>Density-independent Pixels (DIPS)</li>
+      <ul>
+        <li>Physical Pixels = DIPs x Scale Factor</li>
+        <li>So using exact numbers doesn't guarantee the same size across different devices</li>
+        <li>Can use percentages to express how much of the screen we wish to cover (e.g. <code>width: '50%'</code>)</li>
+      </ul>
+      <li>Dimensions API</li>
+      <ul>
+        <li><code>Dimensions.get("window" or "screen")</code></li>
+        <ul>
+        <li>screen returns the size of the screen, window returns the size of the app window</li>
+        <li>both are same on iOS, window is smaller than screen on Android (StatusBar)</li>
+      </ul>
+        <li>Doesn't get updated when the orientation changes</li>
+      </ul>
+      </ul>
+      <li><code>react-native-community/hooks</code></li>
+      <ul>
+        <li>Outside library to interpret screen orientation</li>
+        <ul>
+          <li><code>useDimensions</code>: gets the dimensions of the screen and updates on orientation change</li>
+          <li><code>useDeviceOrientation</code>: returns true/false for portrait vs landscape</li>
+        </ul>
+      </ul>
     <li> Make sure you don't place elements where they could be covered by the iPhone notch</li>
   <ul>
     <li>Import and use <code>SafeAreaView</code> in place of <code>View</code></li>
