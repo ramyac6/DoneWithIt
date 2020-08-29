@@ -100,7 +100,36 @@ This code is my work, but done by following a tutorial at https://www.youtube.co
 		  <li><code>blurRadius</code>: radius of the blur filter to be added to the image</li>
       <li><code>loadingIndicatorSource</code>: will display a local image will the actual image is being downloaded</li>
       <li><code>fadeDuration</code>: fades in the image as it's loaded, only supported in Android</li>
-      <li><code>resizeMode</code>: fades in the image as it's loaded, only supported in Android</li>
+      <li><code>resizeMode</code>: if your specified image dimensions don't match the expected dimensions</li>
+		</ul>
+  </ul>
+  <li>Touchable</li>
+  <ul>
+    <li><code>TouchableWithoutFeedback</code></li>
+		<ul>
+		  <li><code>onPress</code></li>
+		  <ul>
+		    <li>normal tap</li>
+		  </ul>
+		</ul>
+    <ul>
+		  <li><code>onLongPress</code></li>
+		  <ul>
+		    <li>long tap</li>
+		  </ul>
+		</ul>
+	<li><code>TouchableOpacity</code></li>
+		<ul>
+		  <li>Same function as <code>TouchableWithoutFeedback</code> but changes the opacity of the image when touched, makes it lighter</li>
+		</ul>
+    <li><code>TouchableHighlight</code></li>
+		<ul>
+		  <li>Same function as <code>TouchableWithoutFeedback</code> but highlights the image when touched, makes it darker</li>
+		</ul>
+    <li><code>TouchableNativeFeedback</code></li>
+		<ul>
+		  <li>Only available on Android, gives error on iOS</li>
+      <li>Doesn't function well with images but does a cicle expanding thing when tapped on a View or something with a background</li>
 		</ul>
   </ul>
   <li>Styling</li>
@@ -121,4 +150,5 @@ This code is my work, but done by following a tutorial at https://www.youtube.co
 
 <ul>
  <li> Multi-cursor Editing: <code>ctrl-d</code> when highlighting text lets you edit all the instances of that text at once</li>
+ <li> Move blocks of code up/down: <code>alt-[up arrow/down arrow]</code> after highlighting text lets you move that text up or down</li>
 </ul>
