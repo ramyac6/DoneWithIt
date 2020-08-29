@@ -197,11 +197,25 @@ This code is my work, but done by following a tutorial at https://www.youtube.co
       <li>Adds a bit of padding at the top so content isn't covered up by the notch</li>
     </ul>
   </ul>
-      <li>flex: when set to 1, means that the view is flexible and will grow both horizontally and vertically to fit the free space</li>
+      <li><code>flex</code>: when set to 1, means that the view is flexible and will grow both horizontally and vertically to fit the free space</li>
       <ul>
         <li>Can nest flex components and they will grow to fit the outer component</li>
+        <li>By default components are aligned vertically</li>
+        <ul>
+        <li>Set <code>flexDirection</code> to "row" to align horizontally</li>
+        <ul>
+          <li>Primary access is across the phone, cross axis is up and down</li>
+        </ul>
+        <li>Set <code>flexDirection</code> to "row-reverse" to align horizontally from right</li>
+        <li>Set <code>flexDirection</code> to "column-reverse" to align vertically from the bottom</li>
       </ul>
-      <li>backgroundColor: the backgroung color, can be set using RGB values like in web apps or named colors</li>
+      </ul>
+      <li><code>backgroundColor</code>: the background color, can be set using RGB values like in web apps or named colors</li>
+      <li><code>justifyContent</code>: justifies content along whatever is the main axis</li>
+      <li><code>alignItems</code>: justifies content along whatever is the cross axis</li>
+      <ul>
+      <li><code>alignSelf</code>: align just the item</li>
+      </ul>
   </ul>
 </ul>
 
@@ -211,4 +225,5 @@ This code is my work, but done by following a tutorial at https://www.youtube.co
  <li> Multi-cursor Editing: <code>ctrl-d</code> when highlighting text lets you edit all the instances of that text at once</li>
  <li> Move blocks of code up/down: <code>alt-[up arrow/down arrow]</code> after highlighting text lets you move that text up or down</li>
  <li> Duplicate code blocks: <code>shift-alt-down arrow</code> after highlighting text duplicates the text below it</li>
+ <li> Show all options for code: <code>ctrl-space</code> will bring up a menu of all available things you can type there</li>
 </ul>
