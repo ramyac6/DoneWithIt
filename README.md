@@ -216,6 +216,15 @@ This code is my work, but done by following a tutorial at https://www.youtube.co
       <ul>
       <li><code>alignSelf</code>: align just the item</li>
       </ul>
+      <li><code>flexWrap</code>: causes the items to wrap around</li>
+      <ul>
+      <li>Causes <code>alignItems</code> to operate per line</li>
+      <li>Using <code>alignContent</code> will align all content along the cross axis</li>
+      </ul>
+      <li><code>flexBasis</code>: sets size of an item along the primary axis</li>
+      <li><code>flexGrow</code>: same as setting <code>flex</code></li>
+      <li><code>flexShrink</code>: the opposite of <code>flexGrow</code>, tells code this property can be shrunk if necessary, also same as setting <code>flex</code> to a negative value</li>
+      <ul>
   </ul>
 </ul>
 
