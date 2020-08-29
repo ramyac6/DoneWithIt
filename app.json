@@ -21,6 +21,8 @@
     },
     "web": {
       "favicon": "./assets/favicon.png"
-    }
+    },
+    "description": "Practice with a Tutorial",
+    "githubUrl": "https://github.com/ramyac6/DoneWithIt"
   }
 }

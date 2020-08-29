@@ -3,7 +3,9 @@
 This code is my work, but done by following a tutorial at https://www.youtube.com/watch?v=0-S5a0eXPoc
 
 ## Things I've Learned
+
 ### Debugging
+
 <ul>
   <li>Debug code using Chrome Developer Tools</li>
   <ul>
@@ -32,6 +34,7 @@ This code is my work, but done by following a tutorial at https://www.youtube.co
 </ul>
 
 ### Publishing
+
 <ul>
   <li>Publish from Metro Bundler</li>
   <ul>
@@ -57,11 +60,48 @@ This code is my work, but done by following a tutorial at https://www.youtube.co
 </ul>
 
 ### Components
+
 <ul>
   <li>View</li>
   <ul>
     <li>Most basic component in React Native</li>
     <li>Functions like a div in HTML</li>
+  </ul>
+  <li>Text</li>
+  <ul>
+    <li><code>numberOfLines</code></li>
+		<ul>
+		  <li>Will truncate a really long line of text</li>
+		  <li>Without this, <code>Text</code> will wrap around</li>
+		</ul>
+	<li><code>onPress</code></li>
+		<ul>
+		  <li>Executes some function when the element is pressed</li>
+		  <li>Can use single line function inline or an outside function</li>
+		</ul>
+  </ul>
+  <li>Image</li>
+  <ul>
+    <li><code>source</code></li>
+		<ul>
+		  <li>Local images</li>
+		  <ul>
+		    <li>Source is written using <code>requires</code>: <code>source={require("[insert local path to image]]")}</code></li>
+        <li>React Native reads the metadata of the image to interpret the dimensions</li>
+		  </ul>
+      <li>Network images</li>
+		  <ul>
+		    <li>Source is written using <code>Object</code>: <code>source={{ width: 200, height: 300, uri: "[insert link to image]" }}</code></li>
+        <li>Need to manually list the dimensions</li>
+		  </ul>
+		</ul>
+	<li>Props</li>
+		<ul>
+		  <li><code>blurRadius</code>: radius of the blur filter to be added to the image</li>
+      <li><code>loadingIndicatorSource</code>: will display a local image will the actual image is being downloaded</li>
+      <li><code>fadeDuration</code>: fades in the image as it's loaded, only supported in Android</li>
+      <li><code>resizeMode</code>: fades in the image as it's loaded, only supported in Android</li>
+		</ul>
   </ul>
   <li>Styling</li>
   <ul>
@@ -78,6 +118,7 @@ This code is my work, but done by following a tutorial at https://www.youtube.co
 </ul>
 
 ### Miscellaneous Tips
+
 <ul>
  <li> Multi-cursor Editing: <code>ctrl-d</code> when highlighting text lets you edit all the instances of that text at once</li>
 </ul>
