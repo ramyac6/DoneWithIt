@@ -198,6 +198,9 @@ This code is my work, but done by following a tutorial at https://www.youtube.co
     </ul>
   </ul>
       <li>flex: when set to 1, means that the view is flexible and will grow both horizontally and vertically to fit the free space</li>
+      <ul>
+        <li>Can nest flex components and they will grow to fit the outer component</li>
+      </ul>
       <li>backgroundColor: the backgroung color, can be set using RGB values like in web apps or named colors</li>
   </ul>
 </ul>
@@ -207,4 +210,5 @@ This code is my work, but done by following a tutorial at https://www.youtube.co
 <ul>
  <li> Multi-cursor Editing: <code>ctrl-d</code> when highlighting text lets you edit all the instances of that text at once</li>
  <li> Move blocks of code up/down: <code>alt-[up arrow/down arrow]</code> after highlighting text lets you move that text up or down</li>
+ <li> Duplicate code blocks: <code>shift-alt-down arrow</code> after highlighting text duplicates the text below it</li>
 </ul>
