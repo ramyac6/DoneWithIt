@@ -6,23 +6,13 @@ import {
   View,
   Image,
   SafeAreaView,
-  TouchableHighlight,
+  Button,
 } from "react-native";
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <Text>Hello React Native</Text>
-      <TouchableHighlight onPress={() => console.log("Image tapped")}>
-        <Image
-          blurRadius={10}
-          source={{
-            width: 200,
-            height: 300,
-            uri: "https://picsum.photos/200/300",
-          }}
-        />
-      </TouchableHighlight>
+      <Button title="Click Me" onPress={() => console.log("Button Tapped")} />
     </SafeAreaView>
   );
 }
