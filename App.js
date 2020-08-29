@@ -12,16 +12,8 @@ import {
 
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
-      <Button
-        title="Click Me"
-        onPress={() =>
-          Alert.alert("My Title", "My Message", [
-            { text: "yes" },
-            { text: "No" },
-          ])
-        }
-      />
+    <SafeAreaView style={{ backgroundColor: "orange" }}>
+      <Button title="Click Me" onPress={() => console.log("Button pressed")} />
     </SafeAreaView>
   );
 }

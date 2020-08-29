@@ -150,8 +150,24 @@ This code is my work, but done by following a tutorial at https://www.youtube.co
       <li>Diplays a question which we get an answer from, only works on iOS</li>
     </ul>
   </ul>
+  <li>Platform</li>
+  <ul>
+    <li>Can detect what OS the device is running</li>
+    <li>Good for adjusting style (e.g. <code>SafeAreaView</code> only works on iOS</li>
+    <li><code>StatusBar</code></li>
+    <ul>
+      <li>Can get us the height of the status bar as it varies from Android to Android</li>
+    </ul>
+    <li><code>Alert.prompt</code></li>
+    <ul>
+      <li>Diplays a question which we get an answer from, only works on iOS</li>
+    </ul>
+  </ul>
   <li>Styling</li>
   <ul>
+    <li>Not based on CSS</li>
+    <li>Using <code>StyleSheet.create</code> allows for validation checking for spelling mistakes and things</li>
+    <li>Can pass multiple style components, right-most one will override the left-most ones</li>
     <li> Make sure you don't place elements where they could be covered by the iPhone notch</li>
   <ul>
     <li>Import and use <code>SafeAreaView</code> in place of <code>View</code></li>
