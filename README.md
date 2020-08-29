@@ -137,6 +137,19 @@ This code is my work, but done by following a tutorial at https://www.youtube.co
     <li>Fairly straightforward</li>
     <li>On iOS shows up as clickable text, on Android shows up as rectangular button</li>
   </ul>
+  <li>Alert</li>
+  <ul>
+    <li>Not a component but is treated like an API (object with methods)</li>
+    <li>Creates an alert in the native OS</li>
+    <li><code>Alert.alert</code></li>
+    <ul>
+      <li>Displays a method</li>
+    </ul>
+    <li><code>Alert.prompt</code></li>
+    <ul>
+      <li>Diplays a question which we get an answer from, only works on iOS</li>
+    </ul>
+  </ul>
   <li>Styling</li>
   <ul>
     <li> Make sure you don't place elements where they could be covered by the iPhone notch</li>

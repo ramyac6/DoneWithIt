@@ -7,12 +7,21 @@ import {
   Image,
   SafeAreaView,
   Button,
+  Alert,
 } from "react-native";
 
 export default function App() {
   return (
     <SafeAreaView style={styles.container}>
-      <Button title="Click Me" onPress={() => console.log("Button Tapped")} />
+      <Button
+        title="Click Me"
+        onPress={() =>
+          Alert.alert("My Title", "My Message", [
+            { text: "yes" },
+            { text: "No" },
+          ])
+        }
+      />
     </SafeAreaView>
   );
 }
